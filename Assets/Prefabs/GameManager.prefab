@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &134251249961300853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 134251249961300855}
+  - component: {fileID: 134251249961300854}
+  - component: {fileID: 6021012267215158205}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &134251249961300855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134251249961300853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &134251249961300854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134251249961300853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3139a6cdd720c4db38509a0bf26e99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceToGoal: 0
+  fails: 0
+  player: {fileID: 0}
+  tilemap: {fileID: 0}
+  goalMarker: {fileID: 0}
+  failsText: {fileID: 0}
+  greenTiles:
+  - {fileID: 11400000, guid: 2e48d5e1fc2ffc74a9825c8696011a12, type: 2}
+  - {fileID: 11400000, guid: 24ab892a93ceca94fb9d1c09338c70af, type: 2}
+  - {fileID: 11400000, guid: 88ccee1d0f0aa2d4f96865336f832243, type: 2}
+  - {fileID: 11400000, guid: 9627088849a05594680e57d0a95f27d7, type: 2}
+  - {fileID: 11400000, guid: 739c5d6548886e04db72306047fe9acb, type: 2}
+  - {fileID: 11400000, guid: d2b670c70a3fcbd46bf7c5f98bd47705, type: 2}
+  - {fileID: 11400000, guid: 2894506e27114d347afdf619e47e8669, type: 2}
+  - {fileID: 11400000, guid: d70e64103d955a641af0c6661d48bf65, type: 2}
+  - {fileID: 11400000, guid: 09ebcd01a36518943aa1c209041184d8, type: 2}
+  - {fileID: 11400000, guid: 9b20f74d5efcf674793595e6a7c833df, type: 2}
+  rigidbodies: []
+  coins: []
+--- !u!114 &6021012267215158205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134251249961300853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd19cc778e2b8b49bc7e7dba6d5c6c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stopWatchText: {fileID: 0}
